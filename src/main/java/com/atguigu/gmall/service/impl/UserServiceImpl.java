@@ -6,7 +6,12 @@ import java.util.List;
 import com.atguigu.gmall.bean.UserAddress;
 import com.atguigu.gmall.service.UserService;
 
-
+/**
+ *  测试
+ * @author: wudazhong
+ * @Description: TODO
+ * @Date : 2019年10月18日 下午11:04:02
+ */
 public class UserServiceImpl implements UserService{
     @Override
 	public List<UserAddress> getUserAddressList(String userId) {
